@@ -1,0 +1,19 @@
+a:hover {
+    color: rgb(243, 111, 4);
+  }
+.canvas {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 50px;
+    text-align: center;
+    color: rgb(136, 4, 4);
+    font-family: sans-serif;
+    text-transform: uppercase;
+}
+@media (max-width: 500px){
+    .canvas{
+      background-color: rgb(5, 3, 3);
+      font-size: 20px;
+    }
+}

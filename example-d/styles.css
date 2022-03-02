@@ -1,0 +1,16 @@
+.canvas:hover {
+    font-family: 'Courier New', Courier, monospace;  
+}
+.canvas{
+    color: rgb(24, 8, 117);
+    font-family: sans-serif;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 80px;
+}
+@media (max-width: 700px){
+    .canvas{
+      text-align: left;
+      font-size: 30px;
+    }
+}

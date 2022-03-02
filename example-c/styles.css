@@ -1,0 +1,16 @@
+.canvas:hover {
+    font-size: 20px;  
+}
+.canvas {
+    color: black;
+    font-family: sans-serif;
+    line-height: 30vh;
+    text-align: center;
+    margin-top: 100px;
+    font-size: 80px;
+}
+@media (max-width: 600px){
+    .canvas{
+      color: aquamarine;
+    }
+}
